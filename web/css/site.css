@@ -1,0 +1,157 @@
+body {
+    background-color: #000;
+}
+
+.page-container {
+    position: relative;
+    max-width: 1920px;
+    background-color: #242B33;
+    min-width: 1180px;
+    min-height: 2900px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.menu-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    height: 46px;
+    color: #42423F !important;
+    border-bottom: 2px solid #42423F;
+    margin-right: 10px;
+
+}
+
+.menu-item:hover {
+    color: #FFF !important;
+    border-bottom: 2px solid #FFF;
+    cursor: pointer;
+}
+
+.header {
+    position: absolute;
+    z-index: 999;
+    max-width: 1920px;
+    min-width: 1180px;
+    top: 63px;
+    width: 100%;
+}
+
+.middles {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 885px;
+}
+
+.cores {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1085px;
+}
+
+
+.middles .text, .cores .text  {
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    padding-top: 144px;
+    font-family: "Roboto Light";
+}
+
+.middles-first {
+    background-image: url("../images/house.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    cursor: pointer;
+}
+
+.middles-second {
+    background-image: url("../images/presents.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    cursor: pointer;
+}
+
+.middles-third {
+    background-image: url("../images/control.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    cursor: pointer;
+}
+
+.core-first {
+    background-image: url("../images/medical.png");
+}
+
+.core-second {
+    background-image: url("../images/pf.png");
+}
+
+.core-third {
+    background-image: url("../images/zhk.png");
+}
+
+.core-zero {
+    background-image: url("../images/globus.png");
+}
+
+
+.core-category {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    cursor: pointer;
+}
+
+.case-image {
+    width: 95%;
+    height: 192px;
+    overflow: hidden;
+
+}
+
+.case-image:hover {
+    cursor: pointer;
+}
+.case-name {
+    margin-top: -192px;
+    margin-left: 2px;
+    width:90%;
+    overflow-x: hidden;
+}
+.case-name, .case-create-date {
+    color: #242B33 !important;
+    font-weight: bold;
+}
+
+.case-image-preview {
+    height: 90%;
+}
+
+#cases, #categories {
+    margin-top: 50px;
+}
+.case-create-date {
+    margin-top: -40px;
+    margin-left: 2px;
+}
+
+.case {
+    height: 192px;
+}
+
+.case a {
+    text-decoration: none;
+}
